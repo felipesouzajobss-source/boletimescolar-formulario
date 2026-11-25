@@ -1,0 +1,15 @@
+:root {
+--fundo: #f4f1ec;
+--cartao: #ffffff;
+--texto: #22223b;
+--texto-suave: #6b6b80;
+--borda: #dcd6cc;
+--primaria: #3d5a80;
+--aprovado: #2e7d32;
+--recuperacao: #ef8c00;
+--reprovado: #c62828;
+--raio: 12px;
+font-family: system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }

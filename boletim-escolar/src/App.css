@@ -1,0 +1,30 @@
+.app {
+min-height: 100vh;
+background: var(--fundo);
+color: var(--texto);
+transition: background 0.3s, color 0.3s;
+}
+
+/* Tema escuro: só trocamos o valor das variáveis */
+.app--escuro {
+  --fundo: #1b1d2a;
+--cartao: #262938;
+--texto: #f1f1f6;
+--texto-suave: #a5a8bd;
+--borda: #3a3e52;
+--primaria: #8fb3e0;
+}
+
+.app__conteudo {
+max-width: 900px;
+margin: 0 auto;
+padding: 24px 16px 48px;
+display: grid;
+grid-template-columns: 1.1fr 1fr;
+gap: 24px;
+align-items: start;
+}
+
+@media (max-width: 720px) {
+.app__conteudo { grid-template-columns: 1fr; }
+}

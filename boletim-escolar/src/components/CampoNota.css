@@ -1,0 +1,13 @@
+.campo { display: flex; flex-direction: column; gap: 6px; }
+.campo label { font-weight: 600; font-size: 0.9rem; }
+
+.campo input {
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+    background: var(--fundo);
+    color: var(--texto);
+}
+
+.campo input:focus { outline: 2px solid var(--primaria); outline-offset: 1px; }
